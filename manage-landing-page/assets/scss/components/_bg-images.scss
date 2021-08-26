@@ -1,0 +1,64 @@
+/** -- Background Images SVG -- */
+
+.bg__pattern,
+.bg__pattern-hero {
+  position: absolute;
+  max-width: 62rem;
+  right: -19rem;
+  top: -10rem;
+  width: 141%;
+  @include tablet {
+    max-width: 73rem;
+    right: -21rem;
+    top: -18rem;
+    width: 113%;
+  }
+  @include desktop {
+    max-width: 75rem;
+    right: -27rem;
+    top: -29rem;
+    width: 154%;
+  }
+  z-index: -555;
+}
+
+.bg__pattern-hero {
+  max-width: 48rem;
+  right: -18rem;
+  top: 53rem;
+  width: 91%;
+  z-index: -556;
+  @include desktop {
+    display: none;
+  }
+}
+.bg__slogan-1 {
+  position: absolute;
+  left: 0;
+  top: 4.7rem;
+  @include desktopXL {
+    display: none;
+  }
+}
+
+.bg__slogan-2 {
+  display: none;
+  @include desktopXL {
+    display: inline-block;
+  }
+  position: absolute;
+  bottom: 0;
+  left: 26rem;
+}
+.bg__pattern-tablet {
+  display: none;
+  @include desktopXL {
+    display: initial;
+    left: -45rem;
+    top: 90rem;
+    width: 100%;
+    max-width: 70rem;
+    z-index: 1;
+    position: absolute;
+  }
+}

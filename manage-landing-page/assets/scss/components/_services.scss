@@ -1,0 +1,71 @@
+/*-- Section Service --*/
+
+.services {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 8rem;
+  @include desktopXL {
+    width: 100%;
+    max-width: 120rem;
+    display: flex;
+    text-align: start;
+  }
+}
+.service-header {
+  @include d-flex(center, center, column);
+  text-align: center;
+
+  @include desktop {
+    padding-right: 7.2rem;
+  }
+  @include desktopXL {
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 1.4rem;
+    text-align: start;
+  }
+  &__h2 {
+    padding: 0 3.5rem;
+    margin-bottom: 2.2rem;
+    @include desktopXL {
+      padding: 0;
+    }
+  }
+}
+
+.services-features {
+  margin-top: 6rem;
+  margin-left: -0.7rem;
+
+  @include desktopXL {
+    margin-top: 0;
+  }
+  &__info {
+    margin-bottom: 4.5rem;
+    h3 {
+      margin-left: -1.8rem;
+      width: 120%;
+      display: flex;
+      align-items: center;
+      @include d-flex(start, center);
+      background: $Very-Pale-Red;
+      @include radius(1.5rem);
+      @include tablet {
+        background: none;
+      }
+      span {
+        width: 4.5rem;
+        height: 2rem;
+        background-color: $Bright-Red;
+        padding: 1rem;
+        display: inherit;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3rem;
+        color: $Vary-Light-Gray;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

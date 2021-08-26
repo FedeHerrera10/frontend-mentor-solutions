@@ -1,0 +1,12 @@
+{
+  "name": "manage-landing-page",
+  "version": "1.0.0",
+  "description": "Challlenge Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./assets/scss/styles.scss ./assets/css/styles.css"
+  },
+  "author": "Federico Herrera <herrera3299@gmail.com>",
+  "license": "ISC"
+}

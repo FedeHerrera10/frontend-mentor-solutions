@@ -1,0 +1,95 @@
+/*-- Header(logo,menu,button) --*/
+
+.header {
+  width: 100%;
+  height: auto;
+
+  margin-bottom: 4.1rem;
+}
+
+.menu {
+  width: 100%;
+  height: 10rem;
+  @include d-flex(space-between, center);
+  @include desktop {
+    margin: 0 auto;
+    padding: 3.8rem 0 0 0;
+    height: 2.8rem;
+  }
+  &__image {
+    width: 11.7rem;
+    height: auto;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+    @include desktop {
+      width: 10.7rem;
+    }
+  }
+  &__button {
+    margin: 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    @include desktop {
+      display: none;
+    }
+  }
+  .btn-orange {
+    display: none;
+    @include desktop {
+      display: block;
+    }
+  }
+}
+
+.menu__list {
+  list-style: none;
+  position: absolute;
+  padding: 0 2rem;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 60rem;
+  height: 250px;
+  @include radius(1rem);
+  @include d-flex(space-evenly, center, column);
+  display: none;
+  z-index: 20;
+  background-color: $Vary-Light-Gray;
+  @include desktop {
+    position: relative;
+    height: initial;
+    top: 0;
+    background-color: transparent;
+    width: initial;
+
+    @include d-flex(space-between, center);
+  }
+  li {
+    margin: 0 2rem;
+    a {
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: $Dark-Blue;
+      @include desktop {
+        font-size: 1.3rem;
+      }
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  &--active {
+    display: flex;
+    @include desktop {
+      display: flex;
+    }
+  }
+}
+
+.fa.fa-bars {
+  font-size: 2.5rem;
+  color: $Dark-Blue;
+}

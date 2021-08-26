@@ -1,0 +1,52 @@
+@mixin createBtn($width, $height, $size, $bg, $color) {
+  font-size: $size;
+  background-color: $bg;
+  color: $color;
+  font-weight: 700;
+  font-family: $font-main;
+  font-size: 1.3rem;
+  width: $width;
+  height: $height;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+@mixin radius($size) {
+  border-radius: $size;
+}
+/* -- Mixin medias queries --*/
+@mixin mobile {
+  @media screen and (min-width: $bk-mobile) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $bk-desktop-min) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $bk-tablet) {
+    @content;
+  }
+}
+
+@mixin desktopXL {
+  @media screen and (min-width: $bk-desktop) {
+    @content;
+  }
+}
+
+/*-- mixin display flex --*/
+@mixin d-flex($justify, $align, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: wrap;
+}

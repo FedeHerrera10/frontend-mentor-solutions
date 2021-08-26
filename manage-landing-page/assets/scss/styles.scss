@@ -1,0 +1,15 @@
+@import "./globals/variables";
+@import "./globals/mixins";
+@import "./globals/typography";
+
+@import "./utils/utils";
+
+@import "./components/base.scss";
+@import "./components/buttons";
+@import "./components/menu";
+@import "./components/hero";
+@import "./components/services";
+@import "./components/sliders";
+@import "./components/bg-images";
+@import "./components/slogan";
+@import "./components/footer";
