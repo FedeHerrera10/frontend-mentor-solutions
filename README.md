@@ -9,10 +9,10 @@ The project was built while solving out the challenges from [Frontend Mentor](ht
 
 All projects are hosted on Github Pages
 
-| Challenges                   |     Stacks      |            Repo             |            Demo            |
-| :--------------------------- | :-------------: | :-------------------------: | :------------------------: |
-| 1. Manage Landing Page       | Html, Sass, Js  | [Repo](https://github.com/) | [Live](https://github.com) |
-| 1. Testimonials Grid Section | Html, Css, Grid | [Repo](https://github.com/) | [Live](https://github.com) |
+| Challenges                   |     Stacks      |                                                  Repo                                                  |                                            Demo                                             |
+| :--------------------------- | :-------------: | :----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
+| 1. Manage Landing Page       | Html, Sass, Js  |    [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/manage-landing-page)    |   [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/manage-landing-page/)    |
+| 1. Testimonials Grid Section | Html, Css, Grid | [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/testimonials-grid-section) | [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/testimonials-landing-page) |
 
 ## 🎁
 
