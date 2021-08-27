@@ -1,7 +1,7 @@
 // MOBILE AND MEDIUM SCREEN SLIDER
 
 let cards = document.getElementsByClassName("slider");
-let dots = document.getElementsByClassName("round-slider");
+let dots = document.getElementsByClassName("slider__change");
 
 cards = Array.from(cards);
 dots = Array.from(dots);
@@ -41,9 +41,9 @@ console.log(elementIndex)
 }
 
 function markDot(elementIndex) {
-  if (dots[elementIndex].classList.contains("round-slider__active") == false) {
-    dots[elementIndex].classList.add("round-slider__active");
-    removeClass(dots, "round-slider__active", elementIndex);
+  if (dots[elementIndex].classList.contains("slider__change-active") == false) {
+    dots[elementIndex].classList.add("slider__change-active");
+    removeClass(dots, "slider__change-active", elementIndex);
   }
 }
 

@@ -604,7 +604,7 @@ ul li a {
   justify-content: center;
   align-items: center;
 }
-.slider-select .round-slider {
+.slider-select .slider__change {
   width: 0.8rem;
   height: 0.8rem;
   padding: 0;
@@ -614,7 +614,7 @@ ul li a {
   margin: 0 0.1rem;
   cursor: pointer;
 }
-.slider-select .round-slider__active {
+.slider-select .slider__change-active {
   background-color: #f25f3a;
 }
 @media screen and (min-width: 1440px) {

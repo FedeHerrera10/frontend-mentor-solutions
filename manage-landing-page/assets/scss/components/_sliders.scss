@@ -109,7 +109,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .round-slider {
+  .slider__change {
     width: 0.8rem;
     height: 0.8rem;
     padding: 0;
@@ -118,7 +118,7 @@
     background-color: $Vary-Light-Gray;
     margin: 0 0.1rem;
     cursor: pointer;
-    &__active {
+    &-active {
       background-color: $Bright-Red;
     }
   }
