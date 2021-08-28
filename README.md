@@ -9,10 +9,11 @@ The project was built while solving out the challenges from [Frontend Mentor](ht
 
 All projects are hosted on Github Pages
 
-| Challenges                   |     Stacks      |                                                  Repo                                                  |                                            Demo                                             |
-| :--------------------------- | :-------------: | :----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| 1. Manage Landing Page       | Html, Sass, Js  |    [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/manage-landing-page)    |   [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/manage-landing-page/)    |
-| 2. Testimonials Grid Section | Html, Css, Grid | [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/testimonials-grid-section) | [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/testimonials-grid-section) |
+| Challenges                     |        Stacks         |                                                   Repo                                                   |                                              Demo                                              |
+| :----------------------------- | :-------------------: | :------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+| 1. Manage Landing Page         |    Html, Sass, Js     |     [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/manage-landing-page)     |     [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/manage-landing-page/)     |
+| 2. Testimonials Grid Section   |    Html, Css, Grid    |  [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/testimonials-grid-section)  |  [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/testimonials-grid-section)   |
+| 3. Fylo Data Storage Component | Html, Css, Grid, Flex | [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/fylo-data-storage-component) | [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/fylo-data-storage-component/) |
 
 ## 🎁
 
