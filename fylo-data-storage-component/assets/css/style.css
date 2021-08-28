@@ -1,0 +1,213 @@
+:root {
+  --bk-mobile: 375px;
+  --bk-tablet: 768px;
+  --bk-desktop: 1204px;
+  --bk-desktopXL: 1440px;
+  --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --VeryDark-Blue: hsl(229, 57%, 11%);
+  --font-main: "Raleway", sans-serif;
+  --font-size: 14px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-main);
+  font-size: var(--font-size);
+  overflow-y: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../../images/bg-mobile.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--Pale-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 18px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.component__header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+  padding-right: 0;
+  background-color: var(--Dark-Blue);
+}
+
+.component__header--img {
+  width: 100%;
+  margin-bottom: 28px;
+}
+.component__header--img img {
+  width: 100%;
+  max-width: 160px;
+}
+
+.component__header--actions {
+  display: grid;
+  grid-template-columns: repeat(3, 18%);
+  place-content: start;
+  column-gap: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.component__header--actions a {
+  background-color: var(--VeryDark-Blue);
+  padding: 6px 4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+}
+.component__header--actions a img {
+  width: 24px;
+  height: 24px;
+}
+
+.component__info {
+  padding: 35px;
+  background-color: var(--Dark-Blue);
+  border-radius: 10px;
+  height: 60px;
+}
+
+.component__info p {
+  text-align: center;
+}
+
+.component__info--indicator {
+  position: relative;
+  width: 97%;
+  margin: 0 auto;
+  height: 20px;
+  border-radius: 8px;
+  background-color: var(--VeryDark-Blue);
+  cursor: pointer;
+}
+.component__info--indicator:hover > .component__info--tooltip {
+  display: flex;
+}
+.component__info--range {
+  width: 80%;
+  height: 20px;
+  border-radius: 8px;
+  background-color: var(--Pale-Blue);
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.component__range--circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 3px;
+  background-color: white;
+}
+
+.component__info--minmax {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.component__info--minmax p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.component__info--tooltip {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  width: 160px;
+  height: 62px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: white;
+  color: var(--VeryDark-Blue);
+  display: none;
+  align-content: center;
+  justify-content: center;
+}
+.component__info--tooltip h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.component__info--tooltip h3 span {
+  font-size: 14px;
+  color: var(--Grayish-Blue);
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+  .component {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 40% 60%;
+    column-gap: 15px;
+    max-width: 900px;
+  }
+  .component__info p {
+    text-align: initial;
+  }
+
+  .component__header--img img {
+    max-width: 145px;
+  }
+  .component__info {
+    align-self: flex-end;
+  }
+  .component__info--tooltip {
+    right: -256px;
+    top: -115px;
+  }
+  .component__info--tooltip::after {
+    content: "";
+    position: relative;
+    top: 56px;
+    right: -9px;
+    width: 0;
+    height: 0;
+    border: 38px solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -18px;
+  }
+  body {
+    background-color: hsl(229, 57%, 11%);
+    background-image: url("../../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: initial;
+  }
+}
