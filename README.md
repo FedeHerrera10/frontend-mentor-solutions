@@ -15,6 +15,7 @@ All projects are hosted on Github Pages
 | 2. Testimonials Grid Section   |    Html, Css, Grid    |  [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/testimonials-grid-section)  |  [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/testimonials-grid-section)   |
 | 3. Fylo Data Storage Component | Html, Css, Grid, Flex | [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/fylo-data-storage-component) | [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/fylo-data-storage-component/) |
 | 4. Order Summary Component     | Html, Css, Grid, Flex |   [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/order-summary-component)   |   [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/order-summary-component/)   |
+| 5. Chat App Illustration       | Html, Css, Grid, Flex |  [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/chat-app-css-illustration)  |  [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/chat-app-css-illustration/)  |
 
 ## 🎁
 
