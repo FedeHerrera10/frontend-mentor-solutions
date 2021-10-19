@@ -43,7 +43,7 @@ section{
 
 }
 section h2 {
-  padding: 1.5rem 0;
+  padding: 1.65rem 0;
   font-size: 1.8rem;
   font-weight: 700;
 
@@ -115,6 +115,12 @@ button{
   background-color: var(--Bright-Yellow);
   color:white;
   box-shadow: 3px 8px 15px 1px rgb(0 0 0 / 26%);;
+  transition: opacity .3s ease;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: .91;
 }
 
 .bottom{
