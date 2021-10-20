@@ -104,7 +104,12 @@ main{
   border: 3px solid var(--Transparent-white);
 }
 @media screen and (min-width:769px) {
-
+  body{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center ;
+  }
   main{
     display: grid;
     grid-template-columns: repeat(3,33%);
