@@ -1,0 +1,132 @@
+:root{
+  --font-primary : 'Lexend Deca', sans-serif;
+  --font-secundary :'Big Shoulders Display', cursive;
+  --Mobile: 375px;
+  --Desktop: 1440px;
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray : hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-width: var(--Mobile)
+}
+
+main{
+  margin: 3rem 2rem;
+}
+
+.section{
+  font-family: var(--font-primary);
+ padding: 4rem;
+}
+
+
+.section__title{
+  font-size: 4rem;
+  text-transform: uppercase;
+  padding: 3rem 0;
+  font-family: var(--font-secundary);
+  color:var(--Very-light-gray);
+}
+
+.section__info{
+  padding-right: 3rem;
+  font-size: 1.4rem;
+  font-family: var(--font-primary);
+  color:var(--Transparent-white);
+  line-height: 2.5rem;
+}
+
+.btn{
+  border:none;
+  outline: none;
+  font-family: var(--font-primary);
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  padding: 1.5rem 3rem;
+  border-radius: 3rem;
+  border: 3px solid transparent;
+}
+
+.section:nth-child(1){
+  border-radius:  1rem 1rem 0 0;
+  background-color: var(--Bright-orange);
+}
+
+.section:nth-child(2){
+  background-color: var(--Dark-cyan);
+}
+.section:nth-child(3){
+  background-color: var(--Very-dark-cyan);
+   border-radius: 0 0 1rem 1rem;
+}
+
+.btn-orange{
+  color: var(--Bright-orange);
+}
+
+.btn-orange:hover{
+  background-color: var(--Bright-orange);
+  color:var(--Transparent-white);
+  border: 3px solid var(--Transparent-white);
+}
+
+.btn-cyan{
+  color: var(--Dark-cyan);
+}
+
+.btn-cyan:hover{
+  background-color: var(--Dark-cyan);
+  color:var(--Transparent-white);
+  border: 3px solid var(--Transparent-white);
+}
+.btn-dark-cyan{
+  color: var(--Very-dark-cyan);
+}
+.btn-dark-cyan:hover{
+  background-color: var(--Very-dark-cyan);
+  color:var(--Transparent-white);
+  border: 3px solid var(--Transparent-white);
+}
+@media screen and (min-width:769px) {
+
+  main{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    max-width: 980px;
+    padding: 2rem;
+    margin: 5rem auto;
+  }
+  .section{
+    height: 505px;
+  }
+
+  .section__info{
+    font-size: 1.6rem;
+    padding-right: 1rem;
+  }
+
+  .section:nth-child(1){
+    border-radius:  1rem 0 0 1rem;
+  }
+
+  .section:nth-child(3){
+   border-radius:  0 1rem 1rem 0;
+  }
+
+}
