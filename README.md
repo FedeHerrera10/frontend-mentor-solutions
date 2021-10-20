@@ -17,6 +17,7 @@ All projects are hosted on Github Pages
 | 4. Order Summary Component     | Html, Css, Grid, Flex |   [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/order-summary-component)   |   [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/order-summary-component/)   |
 | 5. Chat App Illustration       | Html, Css, Grid, Flex |  [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/chat-app-css-illustration)  |  [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/chat-app-css-illustration/)  |
 | 6. Single Price Grid Component   |    Html, Grid, Flex     |     [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/single-price-grid-component)     |     [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/single-price-grid-component/)     |
+| 7. 3 Column Preview Card Component   |    Html, Grid, Flex     |     [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/3-column-preview-card-component)     |     [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/3-column-preview-card-component/)     |
 
 ## 🎁
 
