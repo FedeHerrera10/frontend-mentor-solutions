@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/styles/style.css">
+  <!--<link rel="stylesheet" href="./assets/styles/switch-btn.css">-->
 
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -28,27 +29,34 @@
     <div class="card">
     <section class="pricing">
       <div class="pricing__views">
-        <h3 class="pricing__views-number"></h3>
+        <h2 class="pricing__views-number"></h2>
       </div>
       <div class="pricing__permonth">
-        <h2 class="pricing__permonth-number"></h2>
+        <h3 class="pricing__permonth-number"></h3>
       </div>
-      <div class="pricing__input">
-        <input type="range" name="pricing-range"
-           min="20" max="100" value="50" step="20"
-          id="pricing-range" class="pricing-range">
-
-      </div>
-      <div class="pricing__info">
-        <h4 class="pricing__info-label">Monthly Billing</h4>
-        <div class="button__change">
-          <button class="btn" id="btn-switch">
-            <span class="switch" id="span-switch"></span>
-          </button>
+      <form>
+        <div class="pricing__input">
+          <input type="range" name="pricing-range"
+             min="20" max="100" value="50" step="20"
+            id="pricing-range" class="pricing-range">
         </div>
+      </form>
 
-        <h4 class="pricing__info-label">Yearly Billing <span class="label"></span></h4>
-      </div>
+      <div class="pricing__info">
+          <div class="toggle">
+            <label class="name">Monthly Billing</label>
+            <input type="checkbox" class="checkbox" id="checkbox" />
+
+            <label for="checkbox" class="label">
+              <span class="ball"></span>
+            </label>
+
+            <label class="name">
+              Yearly Billing
+              <span>-25%</span>
+            </label>
+          </div>
+        </div>
     </section>
 
     <section class="info">
@@ -62,6 +70,12 @@
 
     </div>
   </main>
+
+
+
+
+
+
 
 
   <script src="./index.js"></script>

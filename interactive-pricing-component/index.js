@@ -1,8 +1,10 @@
-const btnSwitch = document.querySelector('#btn-switch');
+const btnSwitch = document.querySelector('#checkbox');
 const spanSwitch = document.querySelector('#span-switch');
 const view = document.querySelector('.pricing__views-number');
 const price = document.querySelector('.pricing__permonth-number');
 const slider = document.querySelector('.pricing-range');
+
+
 
 let active = false;
 let views = 100;
@@ -11,27 +13,15 @@ let pricePerMount = 16;
 view.textContent=`${views}K Pageviews`;
 price.innerHTML=`$${pricePerMount.toFixed(2)}<span>/month</span>`
 
-
-
-
-btnSwitch.addEventListener('click', ()=> {
-
+btnSwitch.addEventListener('click', (e)=> {
   active=!active;
-  if(active){
-    spanSwitch.style.transform='translateX(10px)';
-    btnSwitch.style.backgroundColor='#10d5c2';
-  }else{
-    spanSwitch.style.transform='translateX(-10px)';
-    btnSwitch.style.backgroundColor='#cdd7ee';
-  }
 
 })
 
 
 // Making slider work
 function setBar(value) {
-
-  slider.style.setProperty("--value", value);
+slider.style.setProperty("--value", value);
 }
 
 setBar(50);
