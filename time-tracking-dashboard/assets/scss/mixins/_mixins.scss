@@ -1,0 +1,32 @@
+$colors-card: (
+  "Dark-blue": hsl(235, 46%, 20%),
+  "Light-red-soft": hsl(15, 100%, 70%), // (work)
+  "Blue": hsl(246, 80%, 60%),
+  "Soft-blue" : hsl(195, 74%, 62%), //(play)
+  "Light-red" : hsl(348, 100%, 68%), //(study)
+  "Lime-green" : hsl(145, 58%, 55%), //(exercise)
+  "Violet": hsl(264, 64%, 52%), //(social)
+  "Soft-orange" : hsl(43, 84%, 65%)); //(self care)
+
+  @mixin responsive ($size) {
+    @if $size == desktop {
+      @media screen and (min-width:768px) {
+        @content;
+      }
+    }
+
+    @if $size == tablet {
+    @media screen and (min-width:900px) {
+      @content;
+    }
+  }
+}
+
+
+
+@each $name, $color in $colors-card {
+  .card-#{$name}{
+    background-color: $color;
+  }
+}
+

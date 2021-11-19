@@ -1,0 +1,16 @@
+{
+  "name": "time-tracking-dashboard",
+  "version": "1.0.0",
+  "description": "![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass ./assets/scss/style.scss -o ./assets/css/",
+    "css:watch": "npm run css && node-sass ./assets/scss/style.scss -wo ./assets/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

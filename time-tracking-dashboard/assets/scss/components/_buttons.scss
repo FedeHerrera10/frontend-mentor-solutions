@@ -1,0 +1,16 @@
+.btn-card{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1.8rem;
+  color:$Desaturated-blue;
+  transition: color .3s ease;
+  cursor: pointer;
+  &:hover{
+    color:#ffffff;
+  }
+}
+
+.btn-active{
+  color:#ffffff;
+}
