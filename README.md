@@ -23,6 +23,7 @@ All projects are hosted on Github Pages
 | 10. interactive-pricing-component   |    Html, Grid, Flex     |     [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/interactive-pricing-component)     |     [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/interactive-pricing-component/)     |
 | 11. four-card-feature-section   |    Html, Grid, Flex     |     [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/four-card-feature-section)     |     [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/four-card-feature-section/)     |
 | 12. time tracking dashboard   |    Html, Sass, Js     |     [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/time-tracking-dashboard)     |     [Live](https://fedeherrera10.github.io/frontend-mentor-solutions/time-tracking-dashboard/)     |
+| 13. expenses char component   |    Astro              |     [Repo](https://github.com/FedeHerrera10/frontend-mentor-solutions/tree/main/expenses-chart-component)     |     [Live](https://expenses-chart-component-fh.netlify.app/)     |
 
 ## 🎁
 
