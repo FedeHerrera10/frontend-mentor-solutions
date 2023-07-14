@@ -5,7 +5,7 @@ const divElement = document.querySelector('#graphic');
 let data = [];
 
 const  getData = async () => {
-    const result = await fetch('../data.json');
+    const result = await fetch('data.json');
     data = await result.json();    
     populateDiv();
 }
