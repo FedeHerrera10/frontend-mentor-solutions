@@ -5,5 +5,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://fedeherrera10.github.io/frontend-mentor-solutions/'
+  site: 'https://fedeherrera10.github.io/frontend-mentor-solutions',
+  base:'/expenses-chart-component'
 });
