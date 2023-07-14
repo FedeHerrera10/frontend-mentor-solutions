@@ -1,0 +1,42 @@
+---
+import Figure from '../components/Figure.astro'
+import SectionFooter from '../components/SectionFooter.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import Footer from '../components/Footer.astro';
+---
+<html lang="en">
+  <head>
+    <title>My Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+  
+    <style>
+      *{
+        font-family: 'DM Sans', sans-serif;
+      }
+    </style>
+	</head>
+  <body class="bg-roseCustom-Cream min-w-[375px] ">
+    <main class="px-3 mt-16 max-w-md mx-auto">
+      <SectionHeader/>
+      <section class="bg-roseCustom-VeryPaleOrange max-w-lg mx-auto mt-10 rounded-md px-4">
+        <h2 class="text-roseCustom-DarkBrown text-2xl font-semibold pt-6">Spending  - Last 7 days</h2>
+        <figure class="week flex justify-evenly mt-14 mb-4" id="week">
+          <Figure day="mon"/>
+          <Figure day="tue"/>
+          <Figure day="wed"/>
+          <Figure day="thu"/>
+          <Figure day="fri"/>
+          <Figure day="sat"/>
+          <Figure day="sun"/>
+        </figure>
+        <hr class="border-2 border-roseCustom-Cream" />
+        <SectionFooter/>
+      </section>
+    </main>
+    <Footer/>
+  <script src="src/index.js" defer></script>
+  </body>
+</html>
