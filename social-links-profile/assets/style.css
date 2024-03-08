@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Inter;
+    src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf'), 
+    url('./fonts/static/Inter-Bold.ttf'),
+    url('./fonts/static/Inter-Regular.ttf')
+    url('./fonts/static/Inter-SemiBold.ttf')
+} 
+
+:root{
+    --color-green: hsl(75, 94%, 57%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Grey: hsl(0, 0%, 20%);
+    --color-Dark-Grey: hsl(0, 0%, 12%);
+    --color-Off-Black: hsl(0, 0%, 8%);
+    --min-w:375px;
+    --max-w:1440;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+
+    
+
+ul,h1,p{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--color-White);
+    font-size: 14px;
+}
+
+body{
+    background-color: var(--color-Off-Black);
+    color:var(--color-White);
+    margin-top: 116px;
+    margin-bottom: 109px;
+}
+
+.container-grey{
+    background-color: var(--color-Dark-Grey);
+    width: 90%;
+    margin: 0 auto;
+    padding: 19px 0 ;
+    border-radius: 7px ;
+    width: var(--min-w);
+}
+.profile-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h1{
+    padding-bottom: 17px;
+}
+
+.profile-information__direction{
+    padding-bottom: 30px;
+    color:var(--color-green);
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-bottom: 19px;
+}
+
+.section-links{
+    margin:  0 20px;
+    padding-top: 28px;
+    
+}
+
+.list-links li {
+    
+    margin-bottom: 16px;
+    
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-links li a {
+    display: block;
+    padding: 12px;
+    border-radius: 7px;
+    background-color: var(--color-Grey);
+    transition: ease-in-out .2s;
+}
+.list-links li a:hover{
+    background-color: var(--color-green);
+    cursor: pointer;
+    color:var(--color-Off-Black);
+    
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color:var(--color-green);
+}
+
+footer p a:hover{
+    opacity: .8;
+    transition: opacity ease-in-out .5s;
+}
